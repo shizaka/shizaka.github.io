@@ -164,7 +164,10 @@
       {% endif %}
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
-      {% endif %}      
+      {% endif %}
+      {% if author.zhihu %}
+      <li><a href="https://www.torn.com/profiles.php?XID={{ author.torn }}"><i class="fab fa-fw fa-t icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
+      {% endif %}
     </ul>
   </div>
 </div>
